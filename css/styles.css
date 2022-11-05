@@ -1,0 +1,190 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    
+}
+
+
+#title .container{
+    padding: 7% 3% 3%;
+}
+.row{
+    padding-bottom: 3%;
+    padding-top: 10%;
+}
+
+/* title */
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.big-heading{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 4%;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title-image{
+    width: 15rem;
+    transform: rotate(25deg);
+    position: relative;
+      left: 13%;
+}
+
+@media (max-width: 1028px) {
+    #title{
+    text-align:  center;
+    
+    }
+    
+    .title-image{
+    
+       position: static;
+       transform:  rotate(0); 
+    }
+    
+    }
+
+/*navbar*/
+.navbar-cant{
+    margin-bottom: 3rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+.nav-item{
+    padding: 0px 15px;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/*features*/
+
+#features{
+    padding: 6% 15%;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 6rem;
+    z-index: +1;
+    background-color: #fff;
+    
+
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+   
+    text-align: center;
+    padding:7% 15% 0%;
+    
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #f36b82;
+    padding-bottom: 2.5rem;
+}
+.icon:hover{
+    color:  #ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials{
+
+    background-color: #ff4c68;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+    color: #fff;
+}
+
+.testimonials-image{
+    padding: 1% 5%;
+    border-radius: 100%;
+    width: 20%;
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+em{
+    color: #fff;
+}
+
+    /* press */
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 0% 15% 3%;
+}
+
+.press-img{
+    padding: 3%;
+    width: 20%;
+}
+
+
+
+/* card */
+/* pricing */
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+   padding: 3% 7%;
+   
+}
+.card-deck{
+    padding: 0% 15%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15% 3%;
+}
+.cta-text{
+    
+    font-size: 2.5rem;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 4% 15%;
+}
+.footer-icon{
+    color: #2c2828;
+    padding: 1rem;
+}
